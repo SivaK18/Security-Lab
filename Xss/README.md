@@ -3,7 +3,7 @@
 ## Application
 Simple Create, Read, Update, Delete (CRUD) in PHP & MySQL
 ========
-A simple and basic system to add, edit, delete and view using PHP and MySQL. 
+Edit config.php according to your DB!
 
 ## XSS Attack
 Inject Javascript in any input fields while adding new entry.
