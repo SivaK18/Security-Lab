@@ -20,7 +20,7 @@ int current_length = strlen((const char *)str);
 int original_length = current_length;
 str[current_length] = 0x80;
 str[current_length + 1] = '\0';
-char ic = str[current_length];
+//char ic = str[current_length];
 current_length++;
 int ib = current_length % 64;
 if(ib<56)

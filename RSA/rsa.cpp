@@ -24,7 +24,7 @@ int main(){
 	cout<<"enter two primes"<<endl;
 	int p,q;
 	cin>>p>>q;
-	int n=p*q,phi=(p-1)*(q-1),e=2,k=2;
+	int n=p*q,phi=(p-1)*(q-1),e=2;
 	while(e<phi){
 		if(__gcd(e,phi)==1)break;
 		e++;
